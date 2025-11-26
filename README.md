@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img = np.zeros((300, 600), dtype='uint8')
 font = cv2.FONT_ITALIC
-cv2.putText(img, "Kamesh", (5, 150), font, 3, (255), 5, cv2.LINE_AA)
+cv2.putText(img, "JEECIKASRINA", (5, 150), font, 3, (255), 5, cv2.LINE_AA)
 cv2.imshow("Original", img)
 cv2.waitKey(0)
 
@@ -55,20 +55,9 @@ cv2.waitKey(0)
 ```
 ## Output:
 
-### Display the input Image
-![WhatsApp Image 2025-11-17 at 11 04 25 AM (2)](https://github.com/user-attachments/assets/ef95ece7-2785-4916-9885-121d2dc8143f)
-
-
-### Display the result of Opening
-![WhatsApp Image 2025-11-17 at 11 04 25 AM (1)](https://github.com/user-attachments/assets/296cf431-232b-4184-a2d7-fbf26e010760)
-
-
-
-### Display the result of Closing
-![WhatsApp Image 2025-11-17 at 11 04 25 AM](https://github.com/user-attachments/assets/b9c3dc1f-1b81-4792-816b-b62f31a7a69c)
-
-
-
+<img width="494" height="91" alt="image" src="https://github.com/user-attachments/assets/4a63b137-0a15-4ef9-a4e3-35dd020f4076" />
+<img width="494" height="87" alt="image" src="https://github.com/user-attachments/assets/422fa769-eec1-41b8-b412-f2df8ab18ce8" />
+<img width="493" height="88" alt="image" src="https://github.com/user-attachments/assets/ebe717aa-23f7-4693-8e02-d331298e8db4" />
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
